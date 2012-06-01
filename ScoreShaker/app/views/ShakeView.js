@@ -45,14 +45,18 @@ ScoreShaker.ShakeView = M.PageView.design({
 
         result :M.ContainerView.design({
             cssClass: 'result',
-            childViews:'winnerContainer stuffContainer looserContainer',
-            winnerContainer:M.ContainerView.design({
-                cssClass: 'winnerContainer',
-                childViews: 'winner',
-                winner:M.LabelView.design({
-                    cssClass: 'winner',
+            childViews:'homeContainer stuffContainer foreignContainer',
+            homeContainer:M.ContainerView.design({
+                cssClass: 'homeContainer',
+                childViews: 'home',
+                home:M.LabelView.design({
+                    cssClass: 'home',
                     value:'2',
-                    contentBinding: ScoreShaker.AppController.winner
+                    contentBinding: {
+                        target: ScoreShaker.AppController,
+                        property: 'homeGoals'
+                    }
+
                 })
             }),
             stuffContainer:M.ContainerView.design({
@@ -60,17 +64,19 @@ ScoreShaker.ShakeView = M.PageView.design({
                 cssClass: 'stuffContainer',
                 stuff:M.LabelView.design({
                     cssClass: 'stuff',
-                    value:':',
-                    contentBinding: ScoreShaker.AppController.stuff
+                    value: ':'
                 })
             }),
-            looserContainer:M.ContainerView.design({
-                childViews: 'looser',
-                cssClass: 'looserContainer',
-                looser:M.LabelView.design({
+            foreignContainer:M.ContainerView.design({
+                childViews: 'foreign',
+                cssClass: 'foreignContainer',
+                foreign:M.LabelView.design({
                     value:'3',
-                    cssClass: 'looser',
-                    contentBinding: ScoreShaker.AppController.looser
+                    cssClass: 'foreign',
+                    contentBinding: {
+                        target: ScoreShaker.AppController,
+                        property: 'foreignGoals'
+                    }
                 })
             })
         }),

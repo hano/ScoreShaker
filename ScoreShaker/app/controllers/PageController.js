@@ -18,7 +18,7 @@ ScoreShaker.PageController = M.Controller.extend({
     goBack: function(){
         var prev =  this.pageStack.pop();
         if(prev){
-            SRMDummy.PageController.switchToPage(prev);
+//            SRMDummy.PageController.switchToPage(prev);
         }
     }
     /*

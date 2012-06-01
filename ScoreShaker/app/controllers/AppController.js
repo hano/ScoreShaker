@@ -13,6 +13,10 @@ ScoreShaker.AppController = M.Controller.extend({
     events : '',
     dropdown: '',
 
+    /* properties for content binding */
+    homeGoals: '',
+    foreignGoals: '',
+
     init: function(isFirstLoad) {
         if(isFirstLoad) {
 
@@ -31,7 +35,10 @@ ScoreShaker.AppController = M.Controller.extend({
     },
 
     displayResult: function(result){
+        var endResult = result.split(':');
 
+        this.set('homeGoals', endResult[0]);
+        this.set('foreignGoals', endResult[1]);
     },
 
     eventModel: function(events){
