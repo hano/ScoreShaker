@@ -1,0 +1,621 @@
+TScoreShaker
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Info.plist ScoreShaker/ScoreShaker-Info.plist
+cProcessPCH /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch.pth ScoreShaker/ScoreShaker-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/main.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/AppDelegate.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/MainViewController.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/CustomWebView.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/DataManager.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/Reachability.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker normal i386
+cGenerateDSYMFile /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app.dSYM /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker
+cCopyStringsFile /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/en.lproj/InfoPlist.strings ScoreShaker/en.lproj/InfoPlist.strings
+cCpResource ScoreShaker/www Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/www
+cCpResource ScoreShaker/yeah.caf Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/yeah.caf
+cCpResource ScoreShaker/../iPhoneIcon.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon.png
+cCpResource ScoreShaker/../iPhoneIcon@2x.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon@2x.png
+cCpResource ScoreShaker/iTunesArtwork512 Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork512
+cCpResource ScoreShaker/iTunesArtwork1024 Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork1024
+cCpResource ScoreShaker/Icon-Small-50.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-50.png
+cCpResource ScoreShaker/Icon-Small-58.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-58.png
+cCpResource ScoreShaker/Icon-Small-100.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-100.png
+cCpResource ScoreShaker/Icon-Small.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small.png
+cCpResource ScoreShaker/iPadIcon.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon.png
+cCpResource Default.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default.png
+cCpResource ScoreShaker/iPadIcon@2x.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon@2x.png
+cCpResource Default@2x.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default@2x.png
+cTouch /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F6C89110000000000000110
+t1332513041
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F58748300000000002FDC30
+t1331197059
+s3136560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004F58748400000000002051E0
+t1331197060
+s2118112
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F5874840000000000244490
+t1331197060
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F5874860000000000353830
+t1331197062
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004F58748C000000000006C8A0
+t1331197068
+s444576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F58748E0000000000905E40
+t1331197070
+s9461312
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/libsqlite3.0.dylib
+c000000004F5874A400000000000C0A00
+t1331197092
+s788992
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch.pth
+t1338576373
+s4021420
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/AppDelegate.o
+t1338576373
+s63528
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/CustomWebView.o
+t1338576373
+s48612
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/DataManager.o
+t1338576373
+s7016
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/MainViewController.o
+t1338576665
+s75900
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/Reachability.o
+t1338576373
+s20812
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/ScoreShaker.LinkFileList
+c000000004FC90DF400000000000003F3
+t1338576372
+s1011
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/main.o
+t1338576373
+s3064
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app
+t1338576666
+s680
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app.dSYM
+t1338576666
+s102
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default.png
+t1338576374
+s185403
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default@2x.png
+t1338576374
+s592560
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-100.png
+t1338576374
+s21417
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-50.png
+t1338576374
+s10356
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-58.png
+t1338576374
+s11583
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small.png
+t1338576374
+s7814
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Info.plist
+t1338576373
+s1089
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/PkgInfo
+t1338576373
+s8
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker
+t1338576666
+s195848
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/en.lproj/InfoPlist.strings
+t1338576374
+s42
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon.png
+t1338576374
+s14198
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon@2x.png
+t1338576374
+s37914
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon.png
+t1338576374
+s11396
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon@2x.png
+t1338576374
+s26166
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork1024
+t1338576374
+s1069897
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork512
+t1338576374
+s368090
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/www
+t1338576374
+s714
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/yeah.caf
+t1338576374
+s102656
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Default.png
+c000000004FC8FE91000000000002D43B
+t1338572433
+s185403
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/Default@2x.png
+c000000004FC8FE6A0000000000090AB0
+t1338572394
+s592560
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/../iPhoneIcon.png
+c000000004FC8FC3E0000000000002C84
+t1338571838
+s11396
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/../iPhoneIcon@2x.png
+c000000004FC8FC3E0000000000006636
+t1338571838
+s26166
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.h
+c000000004FC8DE75000000000000014E
+t1338564213
+s334
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.m
+c000000004FC8EF760000000000000D20
+t1338568566
+s3360
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.h
+c000000004FC8E2A300000000000000D8
+t1338565283
+s216
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.m
+c000000004FC90DB3000000000000053D
+t1338576307
+s1341
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.h
+c000000004FACE7C10000000000000114
+t1336731585
+s276
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.m
+c000000004FACE7B900000000000002E7
+t1336731577
+s743
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/GANTracker.h
+c000000004EC2D1440000000000002429
+t1321390404
+s9257
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Icon-Small-100.png
+c000000004FC8FC3E00000000000053A9
+t1338571838
+s21417
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Icon-Small-50.png
+c000000004FC8FC3E0000000000002874
+t1338571838
+s10356
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Icon-Small-58.png
+c000000004FC8FC3E0000000000002D3F
+t1338571838
+s11583
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Icon-Small.png
+c000000004FC8FC3E0000000000001E86
+t1338571838
+s7814
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.h
+c000000004FC8FF7200000000000001A3
+t1338572658
+s419
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.m
+c000000004FC90F150000000000000F90
+t1338576661
+s3984
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.h
+c000000004FACE63B0000000000000F31
+t1336731195
+s3889
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.m
+c000000004FACE63B0000000000002397
+t1336731195
+s9111
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/ScoreShaker-Prefix.pch
+c000000004FC8DCCE0000000000000145
+t1338563790
+s325
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/en.lproj/InfoPlist.strings
+c000000004FC8DCCE000000000000002D
+t1338563790
+s45
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/iPadIcon.png
+c000000004FC8FC3E0000000000003776
+t1338571838
+s14198
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/iPadIcon@2x.png
+c000000004FC8FC3E000000000000941A
+t1338571838
+s37914
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/iTunesArtwork1024
+c000000004FC8FC3F0000000000105349
+t1338571839
+s1069897
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/iTunesArtwork512
+c000000004FC8FC3E0000000000059DDA
+t1338571838
+s368090
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/libGoogleAnalytics.a
+c000000004EC2D165000000000013063C
+t1321390437
+s1246780
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/main.m
+c000000004FC8DCCE000000000000015A
+t1338563790
+s346
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/www
+c000000004FC90C3B00000000000002CA
+t1338575931
+s714
+
+N/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/yeah.caf
+c000000004FC8E7A60000000000019100
+t1338566566
+s102656
+
+NScoreShaker/ScoreShaker-Info.plist
+c000000004FC8FE9D000000000000066C
+t1338572445
+s1644
+
+CBuild AST from /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.m
+r0
+
+CBuild AST from /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.m
+r0
+
+CBuild AST from /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.m
+r0
+
+CBuild AST from /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.m
+r0
+
+CBuild AST from /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.m
+r0
+
+CBuild AST from /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies422403ab4679b541^7b8204ab4679b541^---0#1#0#--18"Check dependencies36"70E52EDF-0F8A-4DAD-B7A7-DA03EE7A214B-
+
+CCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/AppDelegate.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360269173.647720
+e360269173.753561
+r1
+xCompileC
+xBuild/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/AppDelegate.o
+x/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.m83f7a5754579b541^4fe9c0754579b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.m0000000000000000^3698"CompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/AppDelegate.o ScoreShaker/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-generated-files.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-own-target-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-all-target-headers.hmap -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-project-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/include -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources/i386 -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources -F/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator -include /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch -MMD -MT dependencies -MF /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/AppDelegate.dia -c /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/AppDelegate.m -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/AppDelegate.o36"75930E2B-3F16-4228-AC93-5B7DCC5D3F3B-
+
+CCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/CustomWebView.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360269173.754886
+e360269173.823586
+r1
+xCompileC
+xBuild/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/CustomWebView.o
+x/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.m1766c1754579b541^45d6d2754579b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.m0000000000000000^3710"CompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/CustomWebView.o ScoreShaker/CustomWebView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-generated-files.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-own-target-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-all-target-headers.hmap -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-project-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/include -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources/i386 -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources -F/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator -include /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch -MMD -MT dependencies -MF /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/CustomWebView.d --serialize-diagnostics /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/CustomWebView.dia -c /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/CustomWebView.m -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/CustomWebView.o36"68E8C48B-6272-4612-8012-4AB0BDD9A390-
+
+CCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/DataManager.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360269173.827475
+e360269173.927434
+r1
+xCompileC
+xBuild/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/DataManager.o
+x/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.m8bffd3754579b541^809bed754579b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.m0000000000000000^3698"CompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/DataManager.o ScoreShaker/DataManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-generated-files.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-own-target-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-all-target-headers.hmap -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-project-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/include -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources/i386 -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources -F/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator -include /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch -MMD -MT dependencies -MF /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/DataManager.d --serialize-diagnostics /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/DataManager.dia -c /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/DataManager.m -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/DataManager.o36"707F55B3-532D-4DBB-93F2-1BB850861ACB-
+
+CCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/MainViewController.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360269465.817559
+e360269466.004335
+r1
+xCompileC
+xBuild/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/MainViewController.o
+x/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.m4221d2994679b541^e61f019a4679b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.m0000000000000000^3740"CompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/MainViewController.o ScoreShaker/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-generated-files.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-own-target-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-all-target-headers.hmap -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-project-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/include -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources/i386 -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources -F/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator -include /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch -MMD -MT dependencies -MF /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/MainViewController.dia -c /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/MainViewController.m -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/MainViewController.o36"FAAF11B1-B1E3-46CD-BF61-3A2332E8B2F8-
+
+CCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/Reachability.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360269173.850557
+e360269173.967488
+r1
+xCompileC
+xBuild/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/Reachability.o
+x/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.m69e2d9754579b541^62bbf7754579b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.m0000000000000000^3704"CompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/Reachability.o ScoreShaker/Reachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-generated-files.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-own-target-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-all-target-headers.hmap -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-project-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/include -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources/i386 -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources -F/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator -include /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch -MMD -MT dependencies -MF /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/Reachability.d --serialize-diagnostics /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/Reachability.dia -c /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Reachability.m -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/Reachability.o36"752C81F0-A8B8-48A2-B291-7293FB6F66A1-
+
+CCompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/main.o /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360269173.647726
+e360269173.695215
+r1
+xCompileC
+xBuild/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/main.o
+x/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/main.mb6f7a5754579b541^8bf9b1754579b541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/main.m0000000000000000^3656"CompileC Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/main.o ScoreShaker/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-generated-files.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-own-target-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-all-target-headers.hmap -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-project-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/include -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources/i386 -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources -F/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator -include /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch -MMD -MT dependencies -MF /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/main.dia -c /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/main.m -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/main.o36"EE263E24-352E-4232-8ADC-A016C6EA0D3D-
+
+CCopyStringsFile /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/en.lproj/InfoPlist.strings ScoreShaker/en.lproj/InfoPlist.strings
+s360269174.425810
+e360269174.430891
+r1
+xCopyStringsFile
+x/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/en.lproj/InfoPlist.strings
+xScoreShaker/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy ScoreShaker/en.lproj/InfoPlist.stringsd7176d764579b541^c4d06e764579b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/en.lproj/InfoPlist.strings0000000000000000^643"CopyStringsFile Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/en.lproj/InfoPlist.strings ScoreShaker/en.lproj/InfoPlist.strings    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/en.lproj -- ScoreShaker/en.lproj/InfoPlist.strings36"230E25A1-7500-4367-9864-6556CF882B3F-
+
+CCpResource Default.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default.png
+s360269174.496185
+e360269174.501323
+r1
+xCpResource
+xDefault.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default.png87147f764579b541^685880764579b541^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default.png000000000080d041^722"CpResource Default.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default.png    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/Default.png /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"6A08F1BE-FFE2-4041-B1C4-B9A36182723D-
+
+CCpResource Default@2x.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default@2x.png
+s360269174.502366
+e360269174.506209
+r1
+xCpResource
+xDefault@2x.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default@2x.png1daf80764579b541^9e9881764579b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default@2x.png000000000080d041^737"CpResource "Default@2x.png" "Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Default@2x.png"    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/mad198/Desktop/ScoreShaker/iOS/Default@2x.png" /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"CCA152D2-49C3-4527-8598-845E3CE3E237-
+
+CCpResource ScoreShaker/../iPhoneIcon.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon.png
+s360269174.447809
+e360269174.472967
+r1
+xCpResource
+xScoreShaker/../iPhoneIcon.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon.png84b872764579b541^c21479764579b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon.png000000000080d041^761"CpResource ScoreShaker/../iPhoneIcon.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon.png    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/../iPhoneIcon.png /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"B9F6AB7E-35A0-4A19-8D1B-D9C33EEC34DE-
+
+CCpResource ScoreShaker/../iPhoneIcon@2x.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon@2x.png
+s360269174.473935
+e360269174.478977
+r1
+xCpResource
+xScoreShaker/../iPhoneIcon@2x.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon@2x.png8b6e79764579b541^a4a97a764579b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon@2x.png000000000080d041^776"CpResource "ScoreShaker/../iPhoneIcon@2x.png" "Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPhoneIcon@2x.png"    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/../iPhoneIcon@2x.png" /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"6D00D51D-3513-495B-8F7E-6A2077EC7D43-
+
+CCpResource ScoreShaker/Icon-Small-100.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-100.png
+s360269174.487041
+e360269174.490698
+r1
+xCpResource
+xScoreShaker/Icon-Small-100.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-100.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-100.pnga9bd7c764579b541^07b77d764579b541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-100.png000000000080d041^767"CpResource ScoreShaker/Icon-Small-100.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-100.png    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Icon-Small-100.png /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"138F3B25-D182-49D7-BFD1-8DD239FDCD12-
+
+CCpResource ScoreShaker/Icon-Small-50.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-50.png
+s360269174.481804
+e360269174.485365
+r1
+xCpResource
+xScoreShaker/Icon-Small-50.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-50.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-50.png6f677b764579b541^60567c764579b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-50.png000000000080d041^764"CpResource ScoreShaker/Icon-Small-50.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-50.png    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Icon-Small-50.png /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"D63A0556-2385-4507-83AE-73D1C5891130-
+
+CCpResource ScoreShaker/Icon-Small-58.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-58.png
+s360269174.486551
+e360269174.489411
+r1
+xCpResource
+xScoreShaker/Icon-Small-58.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-58.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-58.pngbea17c764579b541^05537d764579b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-58.png000000000080d041^764"CpResource ScoreShaker/Icon-Small-58.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small-58.png    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Icon-Small-58.png /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"F4324362-96D2-4EC5-8E0C-B2E5E6495720-
+
+CCpResource ScoreShaker/Icon-Small.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small.png
+s360269174.490614
+e360269174.493964
+r1
+xCpResource
+xScoreShaker/Icon-Small.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small.png4bab7d764579b541^ef8c7e764579b541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small.png000000000080d041^755"CpResource ScoreShaker/Icon-Small.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Icon-Small.png    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/Icon-Small.png /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"ED5FF991-A4AB-4E7E-B550-A922BB2BA85B-
+
+CCpResource ScoreShaker/iPadIcon.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon.png
+s360269174.491905
+e360269174.495261
+r1
+xCpResource
+xScoreShaker/iPadIcon.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon.pngebfe7d764579b541^c4d07e764579b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon.png000000000080d041^749"CpResource ScoreShaker/iPadIcon.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon.png    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/iPadIcon.png /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"FEE34CDD-3A88-4513-A277-8D1FB2D9E05E-
+
+CCpResource ScoreShaker/iPadIcon@2x.png Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon@2x.png
+s360269174.495713
+e360269174.501124
+r1
+xCpResource
+xScoreShaker/iPadIcon@2x.png
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon@2x.pngfdf97e764579b541^904f80764579b541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon@2x.png000000000080d041^764"CpResource "ScoreShaker/iPadIcon@2x.png" "Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iPadIcon@2x.png"    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/iPadIcon@2x.png" /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"1CC8F3E4-89FD-49A4-9149-F41F7FF932AD-
+
+CCpResource ScoreShaker/iTunesArtwork1024 Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork1024
+s360269174.480529
+e360269174.486011
+r1
+xCpResource
+xScoreShaker/iTunesArtwork1024
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork1024
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork1024d6197b764579b541^ec6c7c764579b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork1024000000000080d041^764"CpResource ScoreShaker/iTunesArtwork1024 Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork1024    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/iTunesArtwork1024 /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"894937E6-E859-4B55-9252-ECC1EDA36AFF-
+
+CCpResource ScoreShaker/iTunesArtwork512 Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork512
+s360269174.474869
+e360269174.480598
+r1
+xCpResource
+xScoreShaker/iTunesArtwork512
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork512
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork512f4a779764579b541^59137b764579b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork512000000000080d041^761"CpResource ScoreShaker/iTunesArtwork512 Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/iTunesArtwork512    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/iTunesArtwork512 /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"A445DBB8-03C2-442B-ABAE-600835F0584E-
+
+CCpResource ScoreShaker/www Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/www
+s360269174.426347
+e360269174.472673
+r1
+xCpResource
+xScoreShaker/www
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/www533d6d764579b541^ef0279764579b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/www000000000080d041^722"CpResource ScoreShaker/www Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/www    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/www /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"8CBE3AFB-6B19-4291-AE10-F8FBE3668481-
+
+CCpResource ScoreShaker/yeah.caf Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/yeah.caf
+s360269174.432399
+e360269174.445685
+r1
+xCpResource
+xScoreShaker/yeah.caf
+xBuild/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/yeah.caf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/yeah.caf40db6e764579b541^1c2672764579b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/yeah.caf000000000080d041^737"CpResource ScoreShaker/yeah.caf Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/yeah.caf    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/yeah.caf /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"E3D7E450-6B40-4DC0-8B06-9EB2310269AF-
+
+CGenerateDSYMFile /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app.dSYM /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker
+s360269466.093831
+e360269466.195009
+r1
+xGenerateDSYMFile
+x/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app.dSYM
+x/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Generating /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app.dSYM8717189a4679b541^a7eb319a4679b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app.dSYM/0000000000000000^763"GenerateDSYMFile Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app.dSYM Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app.dSYM36"C12F71D5-80D1-4F80-90EC-D2EC4E3BEF38-
+
+CLd /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker normal i386
+s360269466.011742
+e360269466.086052
+r1
+xLd
+x/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker4418039a4679b541^4a08169a4679b541^---0#0#0#--1471"Ld Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker normal i386    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator -L/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker -F/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator -filelist /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/Objects-normal/i386/ScoreShaker.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework SystemConfiguration -lsqlite3.0 -framework CFNetwork -framework AudioToolbox -framework UIKit -framework Foundation -framework CoreGraphics -lGoogleAnalytics -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/ScoreShaker36"0AFEDA3E-32A8-4B8A-BB74-B8186D34742E-
+
+CProcessInfoPlistFile /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Info.plist ScoreShaker/ScoreShaker-Info.plist
+s360269173.004105
+e360269173.025438
+r1
+xProcessInfoPlistFile
+x/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Info.plist
+xScoreShaker/ScoreShaker-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process ScoreShaker/ScoreShaker-Info.plist682101754579b541^6ccd06754579b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/ScoreShaker-Info.plist0000000000000000^756"ProcessInfoPlistFile Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Info.plist ScoreShaker/ScoreShaker-Info.plist    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ScoreShaker/ScoreShaker-Info.plist -genpkginfo /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app/Info.plist36"5A90B8B5-A285-4A19-8AE3-81EB5D7D096A-
+
+CProcessPCH /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch.pth ScoreShaker/ScoreShaker-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360269173.033901
+e360269173.640387
+r1
+xProcessPCH
+x/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch.pth
+xScoreShaker/ScoreShaker-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile ScoreShaker/ScoreShaker-Prefix.pche1d308754579b541^d0efa3754579b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/ScoreShaker-Prefix.pch0000000000000000^3554"ProcessPCH Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch.pth ScoreShaker/ScoreShaker-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-generated-files.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-own-target-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-all-target-headers.hmap -iquote /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/ScoreShaker-project-headers.hmap -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/include -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources/i386 -I/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/ScoreShaker.build/Debug-iphonesimulator/ScoreShaker.build/DerivedSources -F/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch.dia -c /Users/mad198/Desktop/ScoreShaker/iOS/ScoreShaker/ScoreShaker-Prefix.pch -o /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch.pth -MMD -MT dependencies -MF /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Intermediates/PrecompiledHeaders/ScoreShaker-Prefix-armaaerfuqpmxxezhwegeagybnwi/ScoreShaker-Prefix.pch.d36"76DE1F82-199E-4204-B477-2C36FD141076-
+
+CProcessPCH /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Index/PrecompiledHeaders/ScoreShaker-Prefix-ebuhoodgvyiouiajzhehwxzzokdl_ast/ScoreShaker-Prefix.pch.pth ScoreShaker/ScoreShaker-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app
+s360269466.219614
+e360269466.248900
+r1
+xTouch
+x/Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Touch /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app9949389a4679b541^80b83f9a4679b541^---0#0#0#--448"Touch Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app    cd /Users/mad198/Desktop/ScoreShaker/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mad198/Desktop/ScoreShaker/iOS/Build/ScoreShaker/Build/Products/Debug-iphonesimulator/ScoreShaker.app36"AB2B8FB8-362C-4255-A514-D1097916136B-
+
