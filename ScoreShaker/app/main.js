@@ -9,17 +9,17 @@ var ScoreShaker  = ScoreShaker || {};
 
 ScoreShaker.app = M.Application.design({
 
-    events: {
-        pageshow: {
-            target: ScoreShaker.AppController,
-            action: 'init'
-        }
-    },
-
     /* Define the entry/start page of your app. This property must be provided! */
     entryPage : 'page1',
 
     page1: M.PageView.design({
+
+        events: {
+            pageshow: {
+                target: ScoreShaker.AppController,
+                action: 'init'
+            }
+        },
 
         childViews: 'header',
         header :M.HeaderBar.design()

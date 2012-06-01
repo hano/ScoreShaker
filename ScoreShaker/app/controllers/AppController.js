@@ -14,8 +14,16 @@ ScoreShaker.AppController = M.Controller.extend({
     init: function(isFirstLoad) {
         if(isFirstLoad) {
 
+            var events = ScoreShaker.RemoteController.initialLoad();
+            this.eventModel(events);
         }
         this.setHeaderTitle('ScoreShaker');
+    },
+
+    eventModel: function(events){
+        Object.keys(events).forEach(function(){
+
+        });
     },
 
     setHeaderTitle: function(title){
