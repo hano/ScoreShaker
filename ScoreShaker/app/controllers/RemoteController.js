@@ -9,6 +9,7 @@
 var BASE_URL = '/local_get_url';
 var URL_URL = '/local_get_url';
 URL_URL = 'http://10.21.1.127/~hano/ScoreShaker';
+BASE_URL = 'http://10.21.1.127/~hano/ScoreShaker';
 //BASE_URL = '/bwin';
 //var BASE_EXTENDS = '?partnerid=iPhone%20Native%2030';
 
@@ -21,7 +22,7 @@ ScoreShaker.RemoteController = M.Controller.extend({
     initialLoad: function(){
         //var events = this.validate(group_a);
         //return events;
-        //this.test();
+        this.test();
     },
 
     test : function(){
