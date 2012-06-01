@@ -1,4 +1,17 @@
 /* Put you custom stylings here! */
-.myCssClass {
-    color: #FF0000;
+
+@font-face {
+    font-family: Cody;
+    src: url('Codystar-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.result{
+    font-size: 80px;
+    font-family: Cody, Arial, Helvetica, sans-serif !important;
+}
+
+.result div{
+    display: inline-block;
 }

@@ -44,25 +44,32 @@ ScoreShaker.ShakeView = M.PageView.design({
         }),
 
         result :M.ContainerView.design({
+            cssClass: 'result',
             childViews:'winnerContainer stuffContainer looserContainer',
             winnerContainer:M.ContainerView.design({
+                cssClass: 'winnerContainer',
                 childViews: 'winner',
                 winner:M.LabelView.design({
+                    cssClass: 'winner',
                     value:'2',
                     contentBinding: ScoreShaker.AppController.winner
                 })
             }),
             stuffContainer:M.ContainerView.design({
                 childViews: 'stuff',
+                cssClass: 'stuffContainer',
                 stuff:M.LabelView.design({
+                    cssClass: 'stuff',
                     value:':',
                     contentBinding: ScoreShaker.AppController.stuff
                 })
             }),
             looserContainer:M.ContainerView.design({
                 childViews: 'looser',
+                cssClass: 'looserContainer',
                 looser:M.LabelView.design({
                     value:'3',
+                    cssClass: 'looser',
                     contentBinding: ScoreShaker.AppController.looser
                 })
             })

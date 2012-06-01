@@ -9,7 +9,7 @@
 ScoreShaker.NativeController = M.Controller.extend({
 
     shaked: function(){
-        alert('Called from container');
+        window.location.href = 'playSound'
     }
 
 });
