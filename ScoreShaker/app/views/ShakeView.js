@@ -78,11 +78,21 @@ ScoreShaker.ShakeView = M.PageView.design({
 
         footer :M.ContainerView.design({
             childViews: 'tmp',
+            cssClass: 'footer',
+            events: {
+                tap: {
+                    //target: ScoreShaker.AppController,
+                    action: function(){
+                        window.open(M.I18N.l('tmpUrl'));
+                    }
+                }
+            },
             tmp:M.LabelView.design({
-                value: 'coded with The-M-Project'
+                value: 'coded with The-M-Project',
+                cssClass: 'imprint'
             })
         })
-    }),
+    })
 
 
 });

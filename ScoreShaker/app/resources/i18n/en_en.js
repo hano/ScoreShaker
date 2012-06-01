@@ -23,6 +23,7 @@ M.I18N.en_en = {
     '_welcome': 'Welcome',
 
     'back': 'back',
+    'tmpUrl': 'http://the-m-project.org/',
 
     'undefined' : 'undefined'
 
