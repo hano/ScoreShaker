@@ -10,6 +10,8 @@ ScoreShaker.AppController = M.Controller.extend({
 
     /* sample controller property */
     headerTitle: '',
+    events : '',
+    dropdown: '',
 
     init: function(isFirstLoad) {
         if(isFirstLoad) {
@@ -21,9 +23,21 @@ ScoreShaker.AppController = M.Controller.extend({
     },
 
     eventModel: function(events){
-        Object.keys(events).forEach(function(){
-
+        var _events = [];
+        var _dropdown = [];
+        Object.keys(events).forEach(function(ind){
+            var event = {};
+            var data = events[ind]['details']['name'];
+            event['value'] = data;
+            event['label'] = data;
+            if(data.split('Euro 2012').length >= 2){
+                event['isSelected'] = YES;
+            }
+            _events.push(events[ind]);
+            _dropdown.push(event);
         });
+        this.set('events', _events);
+        this.set('dropdown', _dropdown);
     },
 
     setHeaderTitle: function(title){

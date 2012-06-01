@@ -15,6 +15,7 @@ ScoreShaker.RemoteController = M.Controller.extend({
         return events;
     },
 
+
     validate: function(data){
 
         if(data && data.response && data.response.items && data.response.items.events){
