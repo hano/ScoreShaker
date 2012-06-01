@@ -18,12 +18,12 @@ ScoreShaker.ShakeView = M.PageView.design({
     
     cssClass: 'ShakeView',
 
-    childViews: 'header content',
+    childViews: 'content',
 
     header :M.HeaderBar.design(),
 
     content: M.ScrollView.design({
-        childViews: 'list',
+        childViews: 'list result footer',
         list: M.SelectionListView.design({
 
             /* renders a selection view like check boxes */
@@ -37,22 +37,46 @@ ScoreShaker.ShakeView = M.PageView.design({
 
             events: {
                 change: {
-//                    //executed in scope of DOMWindow because no target defined
-//                    action: function(itemValues, items) {
-//                        //itemValues is an array because mode of selection is M.MULTIPLE_SELECTION
-//                        for(var i = 0; i < itemValues.length; i++) {
-//                            console.log(itemValues[i] + ' selected.');
-//                        }
-//                    }
+                    target: ScoreShaker.AppController,
+                    action: 'gameChanged'
                 }
             }
+        }),
+
+        result :M.ContainerView.design({
+            childViews:'winnerContainer stuffContainer looserContainer',
+            winnerContainer:M.ContainerView.design({
+                childViews: 'winner',
+                winner:M.LabelView.design({
+                    value:'2',
+                    contentBinding: ScoreShaker.AppController.winner
+                })
+            }),
+            stuffContainer:M.ContainerView.design({
+                childViews: 'stuff',
+                stuff:M.LabelView.design({
+                    value:':',
+                    contentBinding: ScoreShaker.AppController.stuff
+                })
+            }),
+            looserContainer:M.ContainerView.design({
+                childViews: 'looser',
+                looser:M.LabelView.design({
+                    value:'3',
+                    contentBinding: ScoreShaker.AppController.looser
+                })
+            })
+        }),
+
+
+        footer :M.ContainerView.design({
+            childViews: 'tmp',
+            tmp:M.LabelView.design({
+                value: 'coded with The-M-Project'
+            })
         })
     }),
 
-    footer: M.ToolbarView.design({
-        value: 'FOOTER',
-        anchorLocation: M.BOTTOM
-    })
 
 });
 

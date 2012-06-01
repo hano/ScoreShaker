@@ -17,24 +17,37 @@ ScoreShaker.AppController = M.Controller.extend({
         if(isFirstLoad) {
 
             var events = ScoreShaker.RemoteController.initialLoad();
-            this.eventModel(events);
+            if(events){
+                this.eventModel(events);
+            }
+
         }
         this.setHeaderTitle('ScoreShaker');
+    },
+
+    gameChanged: function(id){
+
+        this.displayResult(ScoreShaker.CalculatorController.calculateGame());
+    },
+
+    displayResult: function(result){
+
     },
 
     eventModel: function(events){
         var _events = [];
         var _dropdown = [];
         Object.keys(events).forEach(function(ind){
-            var event = {};
             var data = events[ind]['details']['name'];
-            event['value'] = data;
+            var id = events[ind]['eventids'][0]['id'];
+            var event = {};
+            event['value'] = id;
             event['label'] = data;
-            if(data.split('Euro 2012').length >= 2){
-                event['isSelected'] = YES;
+            if(data.split('Euro 2012').length < 2){
+                _events.push(events[ind]);
+                _dropdown.push(event);
             }
-            _events.push(events[ind]);
-            _dropdown.push(event);
+
         });
         this.set('events', _events);
         this.set('dropdown', _dropdown);

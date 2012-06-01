@@ -6,12 +6,16 @@
     "minify": false,
     "proxies": [
         {
-            "baseUrl": "http://your.server.com",
-            "proxyAlias": "myServer"
+            "baseUrl": "http://127.0.0.1/~hano/ScoreShaker",
+            "proxyAlias": "local_get_url"
         },
         {
-            "baseUrl": "http://your.server2.com",
-            "proxyAlias": "myServer2"
+            "baseUrl": "http://10.21.1.127/~hano/ScoreShaker",
+            "proxyAlias": "remote_get_url"
+        },
+        {
+            "baseUrl": "http://de.mobileapi.bwinlabs.com/api/iphone/v2/events/main/league/",
+            "proxyAlias": "bwin"
         }
     ],
     "htmlHeader": [
