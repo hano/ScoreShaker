@@ -43,9 +43,10 @@ ScoreShaker.CalculatorController = M.Controller.extend({
 
         _.shuffle(results);
 
-        var rand1 = Math.floor(Math.random()*total);
+        var rand1 = Math.floor(Math.random()*results.length);
 
         var result2 = results[rand1];
+
 
         var rand2 = Math.floor(Math.random()*result2.length);
 

@@ -170,6 +170,25 @@ ScoreShaker.AppController = M.Controller.extend({
         var odds = this.getOdds(res);
         this.displayResult(ScoreShaker.CalculatorController.calculateGame(odds[0], odds[1], odds[2]));
         this.changeBgColor('.ui-content');
+    },
+
+    toggleResult: function(){
+        var hide = 'hide';
+        var duration = 'slow';
+        var resultId = M.ViewManager.getView('shakeView','result').id;
+        var jRes = $('#' + resultId);
+        if(jRes.hasClass(hide)){
+            jRes.fadeIn(duration);
+            jRes.removeClass(hide);
+
+        }else{
+            jRes.fadeOut(duration);
+            jRes.addClass(hide);
+        }
+    },
+
+    showResult:function(){
+
     }
 
 

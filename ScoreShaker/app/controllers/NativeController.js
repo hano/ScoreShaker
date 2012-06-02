@@ -11,8 +11,9 @@ ScoreShaker.NativeController = M.Controller.extend({
     inNativeContainer: NO,
 
     shaked: function(){
-        window.location.href = 'playSound';
         ScoreShaker.AppController.shaked();
+        this.getCurrentGame();
+        //window.location.href = 'playSound';
     },
 
     setNativeContainer: function(){
@@ -21,6 +22,14 @@ ScoreShaker.NativeController = M.Controller.extend({
 
     isInNativeContainer: function(){
         return this.inNativeContainer;
+    },
+
+    getCurrentGame: function(){
+        var name = ScoreShaker.AppController.getGameName(ScoreShaker.AppController.currentGameId);
+        var foreignGoals = ScoreShaker.AppController.foreignGoals;
+        var homeGoals = ScoreShaker.AppController.homeGoals;
+        var ret = name + ', ShakedScore: ' + homeGoals + ' : ' + foreignGoals;
+        window.location.href = 'game/' + JSON.stringify(ret);
     }
 
 });

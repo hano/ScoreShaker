@@ -17,11 +17,16 @@ ScoreShaker.DeviceController = M.Controller.extend({
 
         this.plattform = M.Environment.getPlatform();
 
-        if(ScoreShaker.NativeController.isInNativeContainer()){
-            this.hideShakeViews();
-        }
+        if(!ScoreShaker.NativeController.isInNativeContainer()){
+            this.showShakeViews();
 
+        }
         if(typeof window.DeviceMotionEvent != 'undefined'){
+
+            if(this.plattform === 'iPad'){
+                return;
+            }
+
             this.hideShakeViews();
             $(document).bind('shaked', function(){
                 console.log('shaked');
@@ -30,8 +35,8 @@ ScoreShaker.DeviceController = M.Controller.extend({
         }
     },
 
-    hideShakeViews: function(){
-        $('#' + M.ViewManager.getView('shakeView', 'shakeBtn').id).hide();
+    showShakeViews: function(){
+        $('#' + M.ViewManager.getView('shakeView', 'shakeBtn').id).removeClass('hideNativeElements');
     }
 
 });

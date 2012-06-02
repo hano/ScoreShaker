@@ -25,6 +25,7 @@ M.I18N.de_de = {
     'back': 'zurück',
     'tmpUrl': 'http://the-m-project.org/',
     'shake': 'shake',
+    'coded': 'Proudly presented by <br /> The-M-Project',
 
 
     'undefined' : 'undefined'
