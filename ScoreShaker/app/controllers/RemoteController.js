@@ -8,8 +8,8 @@
 
 var BASE_URL = '/local_get_url';
 var URL_URL = '/local_get_url';
-URL_URL = 'http://10.21.1.127/~hano/ScoreShaker';
-BASE_URL = 'http://10.21.1.127/~hano/ScoreShaker';
+//URL_URL = 'http://10.21.1.127/~hano/ScoreShaker';
+//BASE_URL = 'http://10.21.1.127/~hano/ScoreShaker';
 //BASE_URL = '/bwin';
 //var BASE_EXTENDS = '?partnerid=iPhone%20Native%2030';
 
@@ -28,6 +28,7 @@ ScoreShaker.RemoteController = M.Controller.extend({
     test : function(){
 
         var that = this;
+        ScoreShaker.AppController.initViews();
         this.getURLs(function(data){
             that.collect(data);
         });
@@ -67,6 +68,9 @@ ScoreShaker.RemoteController = M.Controller.extend({
             that.sync(data);
         }
         var err = function(xhr, msg){
+            var err = {};
+            err[msg] = xhr.status;
+            that.sync(err);
             that.err(xhr, msg);
         }
         Object.keys(urlData).forEach(function(ind){
@@ -82,8 +86,22 @@ ScoreShaker.RemoteController = M.Controller.extend({
     sync: function(data){
 
         var that = this;
+
+        if(data['error']){
+            that.awaitingResponses = 0;
+            ScoreShaker.AppController.initViews();
+        }
+
         //console.log(that.awaitingResponses);
         that.awaitingResponses -= 1;
+
+//        try{
+//            var key = data.response.items.events[0].details.league.id;
+//            ScoreShaker.AppController.setLocalStorageValue(that.validate(data), key);
+//
+//        }catch(e){
+//            console.log(e);
+//        }
 
         that.gameDataPuffer.push.apply( that.gameDataPuffer, that.validate(data) );
 
