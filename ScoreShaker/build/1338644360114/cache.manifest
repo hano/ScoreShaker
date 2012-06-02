@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#Application:ScoreShaker, Version:0.0.1, Timestamp:1338642379733
+#Application:ScoreShaker, Version:0.0.1, Timestamp:1338644360114
 
 
 # Explicitly cached entries
@@ -14,8 +14,8 @@ bootstrap.js
 shake.js
 HeaderBar.js
 iconButton.js
-jquery-1.7.1.min.js
 ui.js
+jquery-1.7.1.min.js
 jquery_mobile_plugins.js
 theme/jquery_mobile_plugins.css
 jquery_mobile.js

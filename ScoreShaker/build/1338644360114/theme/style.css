@@ -62,8 +62,8 @@ body{
 }
 
 .hide{
-    display: none;
+    xdisplay: none;
 }
 .hideNativeElements{
-    display: none;
+    xdisplay: none;
 }

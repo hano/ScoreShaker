@@ -31,6 +31,7 @@ ScoreShaker.AppController = M.Controller.extend({
 
         }
         this.setHeaderTitle('ScoreShaker');
+
     },
 
     gameChanged:function (id) {
@@ -75,6 +76,7 @@ ScoreShaker.AppController = M.Controller.extend({
 
         this.set('homeGoals', endResult[0]);
         this.set('foreignGoals', endResult[1]);
+        ScoreShaker.NativeController.getCurrentGame();
     },
 
     updateViews:function (obj) {
@@ -282,6 +284,7 @@ ScoreShaker.DeviceController = M.Controller.extend({
 //
 //        }
 
+
         this.plattform = M.Environment.getPlatform();
 
         if(!ScoreShaker.NativeController.isInNativeContainer()){
@@ -291,10 +294,9 @@ ScoreShaker.DeviceController = M.Controller.extend({
         if(typeof window.DeviceMotionEvent != 'undefined'){
 
             if(this.plattform === 'iPad'){
-                return;
+                this.showShakeViews();
             }
 
-            this.hideShakeViews();
             $(document).bind('shaked', function(){
                 console.log('shaked');
                 ScoreShaker.AppController.shaked();
@@ -321,8 +323,8 @@ ScoreShaker.NativeController = M.Controller.extend({
     inNativeContainer: NO,
 
     shaked: function(){
-        ScoreShaker.AppController.shaked();
-        this.getCurrentGame();
+        //ScoreShaker.AppController.shaked();
+        //this.getCurrentGame();
         //window.location.href = 'playSound';
     },
 
@@ -395,8 +397,8 @@ ScoreShaker.PageController = M.Controller.extend({
 
 var BASE_URL = '/local_get_url';
 var URL_URL = '/local_get_url';
-URL_URL = 'http://192.168.178.54/~hano/ScoreShaker';
-BASE_URL = 'http://192.168.178.54/~hano/ScoreShaker';
+//URL_URL = 'http://192.168.178.54/~hano/ScoreShaker';
+//BASE_URL = 'http://192.168.178.54/~hano/ScoreShaker';
 //BASE_URL = '/bwin';
 //var BASE_EXTENDS = '?partnerid=iPhone%20Native%2030';
 
@@ -447,7 +449,7 @@ ScoreShaker.RemoteController = M.Controller.extend({
 
         var that = this;
 
-        if(Object.keys(ScoreShaker.AppController.events).length > 0){
+        if(ScoreShaker.AppController.events && Object.keys(ScoreShaker.AppController.events).length > 0){
             return ScoreShaker.AppController.events
         }
 
