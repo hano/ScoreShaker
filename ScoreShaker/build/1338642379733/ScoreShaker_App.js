@@ -171,6 +171,36 @@ ScoreShaker.AppController = M.Controller.extend({
         var odds = this.getOdds(res);
         this.displayResult(ScoreShaker.CalculatorController.calculateGame(odds[0], odds[1], odds[2]));
         this.changeBgColor('.ui-content');
+    },
+
+    toggleResult: function(){
+        var hide = 'hide';
+        var duration = 'slow';
+        var resultId = M.ViewManager.getView('shakeView','result').id;
+        var jRes = $('#' + resultId);
+        if(jRes.hasClass(hide)){
+            this.showResult();
+        }else{
+            this.hideResult();
+        }
+    },
+
+    showResult:function(){
+        var hide = 'hide';
+        var duration = 'slow';
+        var resultId = M.ViewManager.getView('shakeView','result').id;
+        var jRes = $('#' + resultId);
+        jRes.fadeIn(duration);
+        jRes.removeClass(hide);
+    },
+
+    hideResult:function(){
+        var hide = 'hide';
+        var duration = 'slow';
+        var resultId = M.ViewManager.getView('shakeView','result').id;
+        var jRes = $('#' + resultId);
+        jRes.fadeOut(duration);
+        jRes.addClass(hide);
     }
 
 
@@ -221,9 +251,10 @@ ScoreShaker.CalculatorController = M.Controller.extend({
 
         _.shuffle(results);
 
-        var rand1 = Math.floor(Math.random()*total);
+        var rand1 = Math.floor(Math.random()*results.length);
 
         var result2 = results[rand1];
+
 
         var rand2 = Math.floor(Math.random()*result2.length);
 
@@ -253,11 +284,16 @@ ScoreShaker.DeviceController = M.Controller.extend({
 
         this.plattform = M.Environment.getPlatform();
 
-        if(ScoreShaker.NativeController.isInNativeContainer()){
-            this.hideShakeViews();
-        }
+        if(!ScoreShaker.NativeController.isInNativeContainer()){
+            this.showShakeViews();
 
+        }
         if(typeof window.DeviceMotionEvent != 'undefined'){
+
+            if(this.plattform === 'iPad'){
+                return;
+            }
+
             this.hideShakeViews();
             $(document).bind('shaked', function(){
                 console.log('shaked');
@@ -266,8 +302,8 @@ ScoreShaker.DeviceController = M.Controller.extend({
         }
     },
 
-    hideShakeViews: function(){
-        $('#' + M.ViewManager.getView('shakeView', 'shakeBtn').id).hide();
+    showShakeViews: function(){
+        $('#' + M.ViewManager.getView('shakeView', 'shakeBtn').id).removeClass('hideNativeElements');
     }
 
 });
@@ -285,8 +321,9 @@ ScoreShaker.NativeController = M.Controller.extend({
     inNativeContainer: NO,
 
     shaked: function(){
-        window.location.href = 'playSound';
         ScoreShaker.AppController.shaked();
+        this.getCurrentGame();
+        //window.location.href = 'playSound';
     },
 
     setNativeContainer: function(){
@@ -295,6 +332,14 @@ ScoreShaker.NativeController = M.Controller.extend({
 
     isInNativeContainer: function(){
         return this.inNativeContainer;
+    },
+
+    getCurrentGame: function(){
+        var name = ScoreShaker.AppController.getGameName(ScoreShaker.AppController.currentGameId);
+        var foreignGoals = ScoreShaker.AppController.foreignGoals;
+        var homeGoals = ScoreShaker.AppController.homeGoals;
+        var ret = name + ', ShakedScore: ' + homeGoals + ' : ' + foreignGoals;
+        window.location.href = 'game/' + JSON.stringify(ret);
     }
 
 });
@@ -350,8 +395,8 @@ ScoreShaker.PageController = M.Controller.extend({
 
 var BASE_URL = '/local_get_url';
 var URL_URL = '/local_get_url';
-//URL_URL = 'http://10.21.1.127/~hano/ScoreShaker';
-//BASE_URL = 'http://10.21.1.127/~hano/ScoreShaker';
+URL_URL = 'http://192.168.178.54/~hano/ScoreShaker';
+BASE_URL = 'http://192.168.178.54/~hano/ScoreShaker';
 //BASE_URL = '/bwin';
 //var BASE_EXTENDS = '?partnerid=iPhone%20Native%2030';
 
@@ -402,7 +447,7 @@ ScoreShaker.RemoteController = M.Controller.extend({
 
         var that = this;
 
-        if(ScoreShaker.AppController.events){
+        if(Object.keys(ScoreShaker.AppController.events).length > 0){
             return ScoreShaker.AppController.events
         }
 
@@ -506,103 +551,117 @@ ScoreShaker.RemoteController = M.Controller.extend({
 ScoreShaker.ShakeView = M.PageView.design({
 
     /* Use the 'events' property to bind events like 'pageshow' */
-    events: {
-        pageshow: {
-            target: ScoreShaker.AppController,
-            action: 'init'
+    events:{
+        pageshow:{
+            target:ScoreShaker.AppController,
+            action:'init'
         }
     },
-    
-    cssClass: 'ShakeView',
 
-    childViews: 'content',
+    cssClass:'ShakeView',
 
-    header :M.HeaderBar.design(),
+    childViews:'content',
 
-    content: M.ScrollView.design({
-        childViews: 'list result footer',
-        list: M.SelectionListView.design({
+    header:M.HeaderBar.design(),
+
+    content:M.ScrollView.design({
+        childViews:'list resultContainer shakeBtnContainer footer',
+        list:M.SelectionListView.design({
 
             /* renders a selection view like check boxes */
-            selectionMode: M.SINGLE_SELECTION_DIALOG,
+            selectionMode:M.SINGLE_SELECTION_DIALOG,
 
             /* this seleciton view has no static entries, instead it is filled via content binding. */
-            contentBinding: {
-                target: ScoreShaker.AppController,
-                property: 'dropdown'
+            contentBinding:{
+                target:ScoreShaker.AppController,
+                property:'dropdown'
             },
 
-            events: {
-                change: {
-                    target: ScoreShaker.AppController,
-                    action: 'gameChanged'
+            events:{
+                change:{
+                    target:ScoreShaker.AppController,
+                    action:'gameChanged'
                 }
             }
         }),
 
-        result :M.ContainerView.design({
-            cssClass: 'result',
-            childViews:'homeContainer stuffContainer foreignContainer shakeBtn',
-            homeContainer:M.ContainerView.design({
-                cssClass: 'homeContainer',
-                childViews: 'home',
-                home:M.LabelView.design({
-                    cssClass: 'home',
-                    value:'2',
-                    contentBinding: {
-                        target: ScoreShaker.AppController,
-                        property: 'homeGoals'
-                    }
+        resultContainer:M.ContainerView.design({
 
+            cssClass:'resultContainer',
+            childViews: 'result',
+
+            result:M.ContainerView.design({
+                cssClass:'result hide',
+                childViews:'homeContainer stuffContainer foreignContainer',
+                homeContainer:M.ContainerView.design({
+                    cssClass:'homeContainer',
+                    childViews:'home',
+                    home:M.LabelView.design({
+                        cssClass:'home',
+                        value:'2',
+                        contentBinding:{
+                            target:ScoreShaker.AppController,
+                            property:'homeGoals'
+                        }
+
+                    })
+                }),
+                stuffContainer:M.ContainerView.design({
+                    childViews:'stuff',
+                    cssClass:'stuffContainer',
+                    stuff:M.LabelView.design({
+                        cssClass:'stuff',
+                        value:':'
+                    })
+                }),
+                foreignContainer:M.ContainerView.design({
+                    childViews:'foreign',
+                    cssClass:'foreignContainer',
+                    foreign:M.LabelView.design({
+                        value:'3',
+                        cssClass:'foreign',
+                        contentBinding:{
+                            target:ScoreShaker.AppController,
+                            property:'foreignGoals'
+                        }
+                    })
                 })
-            }),
-            stuffContainer:M.ContainerView.design({
-                childViews: 'stuff',
-                cssClass: 'stuffContainer',
-                stuff:M.LabelView.design({
-                    cssClass: 'stuff',
-                    value: ':'
-                })
-            }),
-            foreignContainer:M.ContainerView.design({
-                childViews: 'foreign',
-                cssClass: 'foreignContainer',
-                foreign:M.LabelView.design({
-                    value:'3',
-                    cssClass: 'foreign',
-                    contentBinding: {
-                        target: ScoreShaker.AppController,
-                        property: 'foreignGoals'
-                    }
-                })
-            }),
+            })
+
+
+        }),
+
+        shakeBtnContainer:M.ContainerView.design({
+
+            childViews:'shakeBtn',
 
             shakeBtn:M.ButtonView.design({
                 value:M.I18N.l('shake'),
                 events:{
                     tap:{
                         target:ScoreShaker.AppController,
-                        action: 'shaked'
+                        action:'shaked'
                     }
                 }
             })
+
         }),
 
 
-        footer :M.ContainerView.design({
-            childViews: 'tmp',
-            cssClass: 'footer',
-            events: {
-                tap: {
+        footer:M.ContainerView.design({
+            childViews:'tmp',
+            cssClass:'footer',
+            events:{
+                tap:{
                     //target: ScoreShaker.AppController,
-                    action: function(){
+                    action:function () {
                         window.open(M.I18N.l('tmpUrl'));
                     }
                 }
             },
             tmp:M.LabelView.design({
-                value: 'coded with The-M-Project',
-                cssClass: 'imprint'
+                value:M.I18N.l('coded'),
+                cssClass:'imprint'
             })
         })
     })

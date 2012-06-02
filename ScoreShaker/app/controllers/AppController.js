@@ -178,17 +178,28 @@ ScoreShaker.AppController = M.Controller.extend({
         var resultId = M.ViewManager.getView('shakeView','result').id;
         var jRes = $('#' + resultId);
         if(jRes.hasClass(hide)){
-            jRes.fadeIn(duration);
-            jRes.removeClass(hide);
-
+            this.showResult();
         }else{
-            jRes.fadeOut(duration);
-            jRes.addClass(hide);
+            this.hideResult();
         }
     },
 
     showResult:function(){
+        var hide = 'hide';
+        var duration = 'slow';
+        var resultId = M.ViewManager.getView('shakeView','result').id;
+        var jRes = $('#' + resultId);
+        jRes.fadeIn(duration);
+        jRes.removeClass(hide);
+    },
 
+    hideResult:function(){
+        var hide = 'hide';
+        var duration = 'slow';
+        var resultId = M.ViewManager.getView('shakeView','result').id;
+        var jRes = $('#' + resultId);
+        jRes.fadeOut(duration);
+        jRes.addClass(hide);
     }
 
 
