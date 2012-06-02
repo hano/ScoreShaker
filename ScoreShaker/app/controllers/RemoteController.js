@@ -60,7 +60,7 @@ ScoreShaker.RemoteController = M.Controller.extend({
 
         var that = this;
 
-        if(Object.keys(ScoreShaker.AppController.events).length > 0){
+        if(ScoreShaker.AppController.events && Object.keys(ScoreShaker.AppController.events).length > 0){
             return ScoreShaker.AppController.events
         }
 

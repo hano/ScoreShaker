@@ -15,6 +15,7 @@ ScoreShaker.DeviceController = M.Controller.extend({
 //
 //        }
 
+
         this.plattform = M.Environment.getPlatform();
 
         if(!ScoreShaker.NativeController.isInNativeContainer()){
@@ -24,12 +25,10 @@ ScoreShaker.DeviceController = M.Controller.extend({
         if(typeof window.DeviceMotionEvent != 'undefined'){
 
             if(this.plattform === 'iPad'){
-                return;
+                this.showShakeViews();
             }
 
-            this.hideShakeViews();
             $(document).bind('shaked', function(){
-                console.log('shaked');
                 ScoreShaker.AppController.shaked();
             });
         }

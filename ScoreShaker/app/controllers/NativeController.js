@@ -11,7 +11,8 @@ ScoreShaker.NativeController = M.Controller.extend({
     inNativeContainer: NO,
 
     shaked: function(){
-        ScoreShaker.AppController.shaked();
+        //ScoreShaker.AppController.shaked();
+        $('#' + M.ViewManager.getView('shakeView', 'shakeBtn').id).trigger('tap');
         this.getCurrentGame();
         //window.location.href = 'playSound';
     },

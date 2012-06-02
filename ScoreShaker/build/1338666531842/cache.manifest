@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#Application:ScoreShaker, Version:0.0.1, Timestamp:1338644360114
+#Application:ScoreShaker, Version:0.0.1, Timestamp:1338666531842
 
 
 # Explicitly cached entries
@@ -35,6 +35,22 @@ ScoreShaker_App.js
 theme/ScoreShaker.css
 theme/style.css
 theme/images/bg_image.jpg
+theme/images/fahne-daenemark.gif
+theme/images/fahne-deutschland.gif
+theme/images/fahne-england.gif
+theme/images/fahne-frankreich.gif
+theme/images/fahne-griechenland.gif
+theme/images/fahne-irland.gif
+theme/images/fahne-italien.gif
+theme/images/fahne-kroatien.gif
+theme/images/fahne-niederlande.gif
+theme/images/fahne-polen.gif
+theme/images/fahne-portugal.gif
+theme/images/fahne-russland.gif
+theme/images/fahne-schweden.gif
+theme/images/fahne-spanien.gif
+theme/images/fahne-tschechien.gif
+theme/images/fahne-ukraine.gif
 theme/images/Icon-72.png
 theme/images/Icon.png
 theme/images/Icon@2x.png

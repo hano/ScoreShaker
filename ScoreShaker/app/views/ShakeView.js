@@ -23,9 +23,9 @@ ScoreShaker.ShakeView = M.PageView.design({
     header:M.HeaderBar.design(),
 
     content:M.ScrollView.design({
-        childViews:'list resultContainer shakeBtnContainer footer',
+        childViews:'flagContainer list resultContainer shakeBtnContainer footer',
         list:M.SelectionListView.design({
-
+            cssClass:'list',
             /* renders a selection view like check boxes */
             selectionMode:M.SINGLE_SELECTION_DIALOG,
 
@@ -37,16 +37,33 @@ ScoreShaker.ShakeView = M.PageView.design({
 
             events:{
                 change:{
-                    target:ScoreShaker.AppController,
-                    action:'gameChanged'
+                    //target:ScoreShaker.AppController,
+                    action:function (gameId) {
+                        //WTF but it doesnt work in a native container otherwise - don't ask me
+                        CURRENTGAMEID = gameId;
+                        ScoreShaker.AppController.gameChanged();
+                    }
                 }
             }
+        }),
+
+        flagContainer:M.ContainerView.design({
+            cssClass: 'flags',
+            childViews:'homeFlag foreignFlag',
+            homeFlag:M.ContainerView.design({
+                cssClass: 'homeFlag',
+                value:''
+            }),
+            foreignFlag:M.ContainerView.design({
+                cssClass: 'foreignFlag',
+                value:''
+            })
         }),
 
         resultContainer:M.ContainerView.design({
 
             cssClass:'resultContainer',
-            childViews: 'result',
+            childViews:'result',
 
             result:M.ContainerView.design({
                 cssClass:'result hide',
@@ -97,8 +114,10 @@ ScoreShaker.ShakeView = M.PageView.design({
                 value:M.I18N.l('shake'),
                 events:{
                     tap:{
-                        target:ScoreShaker.AppController,
-                        action:'shaked'
+                        //target:ScoreShaker.AppController,
+                        action:function () {
+                            ScoreShaker.AppController.shaked();
+                        }
                     }
                 }
             })

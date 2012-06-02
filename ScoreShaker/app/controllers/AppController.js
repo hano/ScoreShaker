@@ -21,6 +21,7 @@ ScoreShaker.AppController = M.Controller.extend({
     init:function (isFirstLoad) {
         if (isFirstLoad) {
 
+
             ScoreShaker.DeviceController.init();
 
             var events = ScoreShaker.RemoteController.initialLoad();
@@ -30,11 +31,17 @@ ScoreShaker.AppController = M.Controller.extend({
 
         }
         this.setHeaderTitle('ScoreShaker');
+
+        CURRENTGAMEID = M.ViewManager.getView('shakeView', 'list').getSelection();
+        this.gameChanged();
     },
 
     gameChanged:function (id) {
-        this.currentGameId = id;
-        this.shaked();
+        //this.shaked();
+        var p = this.getGameParticipants(CURRENTGAMEID);
+        $('.homeFlag').attr('class', 'homeFlag ' + p[0]['name'].toLowerCase());
+        $('.foreignFlag').attr('class', 'foreignFlag ' + p[1]['name'].toLowerCase());
+
     },
 
     getGameById:function (id) {
@@ -80,7 +87,6 @@ ScoreShaker.AppController = M.Controller.extend({
 
         this.set('events', obj.events);
         this.set('dropdown', obj.dropdown);
-        this.currentGameId = M.ViewManager.getView('shakeView', 'list').getSelection();
     },
 
     initViews:function () {
@@ -165,10 +171,9 @@ ScoreShaker.AppController = M.Controller.extend({
     },
 
     shaked:function () {
-        //this.testOutput(this.currentGameId);
-        var res = this.getGameCombo(this.currentGameId);
+        var res = this.getGameCombo(CURRENTGAMEID);
         var odds = this.getOdds(res);
-        this.displayResult(ScoreShaker.CalculatorController.calculateGame(odds[0], odds[1], odds[2]));
+        this.displayResult(ScoreShaker.CalculatorController.calculateGame(res[0]['odds'], res[1]['odds'], res[2]['odds']));
         this.changeBgColor('.ui-content');
     },
 
