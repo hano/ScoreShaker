@@ -546,7 +546,7 @@
 		56D633891579144E005FD7D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matthias Nagel (853U9L8LVC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Volker Hahn (3B37MS7YWQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScoreShaker/ScoreShaker-Prefix.pch";
 				INFOPLIST_FILE = "ScoreShaker/ScoreShaker-Info.plist";
@@ -555,7 +555,7 @@
 					"\"$(SRCROOT)/ScoreShaker\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8DF097A2-1CB7-4F33-B1C0-0F8459B8744C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "579C3CD8-6AB5-4188-A86A-6F7295058213";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
