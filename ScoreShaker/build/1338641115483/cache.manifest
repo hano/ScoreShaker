@@ -1,0 +1,52 @@
+CACHE MANIFEST
+#Application:ScoreShaker, Version:0.0.1, Timestamp:1338641115483
+
+
+# Explicitly cached entries
+CACHE:
+de_de.js
+en_en.js
+en_us.js
+underscore-min.js
+d8-0.2.0.min.js
+theme/tmp.css
+bootstrap.js
+shake.js
+HeaderBar.js
+iconButton.js
+ui.js
+jquery-1.7.1.min.js
+jquery_mobile_plugins.js
+theme/jquery_mobile_plugins.css
+jquery_mobile.js
+theme/Codystar-Light.ttf
+theme/Codystar-Regular.ttf
+OFL.txt
+core.js
+group_a.js
+theme/jquery.mobile-1.1.0.min.css
+theme/images/ajax-loader.gif
+theme/images/ajax-loader.png
+theme/images/icons-18-black.png
+theme/images/icons-18-white.png
+theme/images/icons-36-black.png
+theme/images/icons-36-white.png
+ScoreShaker_App.js
+theme/ScoreShaker.css
+theme/style.css
+theme/images/bg_image.jpg
+theme/images/Icon-72.png
+theme/images/Icon.png
+theme/images/Icon@2x.png
+theme/images/tmp_icon.png
+
+
+# Resources that require the device/user to be online.
+NETWORK:
+local_get_url
+remote_get_url
+bwin
+*
+
+# Fallback resources 
+FALLBACK:
