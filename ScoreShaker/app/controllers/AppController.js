@@ -21,9 +21,7 @@ ScoreShaker.AppController = M.Controller.extend({
     init:function (isFirstLoad) {
         if (isFirstLoad) {
 
-            if(ScoreShaker.NativeController.isInNativeContainer()){
-                $('#' + M.ViewManager.getView('shakeView', 'shakeBtn').id).hide();
-            }
+            ScoreShaker.DeviceController.init();
 
             var events = ScoreShaker.RemoteController.initialLoad();
             if (events) {

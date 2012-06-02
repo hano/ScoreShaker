@@ -44,6 +44,7 @@
     "libraries":[
         {"name": "Data", "refs": ["*"]},
         {"name": "fonts", "refs": ["*"]},
+        {"name": "ShakeLib", "refs": ["*"]},
         {"name": "AdditionalViews", "refs": ["*"]}
     ]
 }
