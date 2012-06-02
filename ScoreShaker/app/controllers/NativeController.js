@@ -8,13 +8,19 @@
 
 ScoreShaker.NativeController = M.Controller.extend({
 
+    inNativeContainer: NO,
+
     shaked: function(){
         window.location.href = 'playSound';
-        this.changeBgColor('.ui-content');
+        ScoreShaker.AppController.shaked();
     },
 
-    changeBgColor: function(ident){
-        $(ident).css('background', 'rgba(255, 255, 255, 0.5)');
+    setNativeContainer: function(){
+        this.inNativeContainer = true;
+    },
+
+    isInNativeContainer: function(){
+        return this.inNativeContainer;
     }
 
 });

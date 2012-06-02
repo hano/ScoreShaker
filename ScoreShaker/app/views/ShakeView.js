@@ -45,7 +45,7 @@ ScoreShaker.ShakeView = M.PageView.design({
 
         result :M.ContainerView.design({
             cssClass: 'result',
-            childViews:'homeContainer stuffContainer foreignContainer',
+            childViews:'homeContainer stuffContainer foreignContainer shakeBtn',
             homeContainer:M.ContainerView.design({
                 cssClass: 'homeContainer',
                 childViews: 'home',
@@ -78,6 +78,16 @@ ScoreShaker.ShakeView = M.PageView.design({
                         property: 'foreignGoals'
                     }
                 })
+            }),
+
+            shakeBtn:M.ButtonView.design({
+                value:M.I18N.l('shake'),
+                events:{
+                    tap:{
+                        target:ScoreShaker.AppController,
+                        action: 'shaked'
+                    }
+                }
             })
         }),
 

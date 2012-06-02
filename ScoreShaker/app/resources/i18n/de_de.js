@@ -24,6 +24,7 @@ M.I18N.de_de = {
 
     'back': 'zurück',
     'tmpUrl': 'http://the-m-project.org/',
+    'shake': 'shake',
 
 
     'undefined' : 'undefined'
