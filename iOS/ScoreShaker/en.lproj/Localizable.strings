@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  ScoreShaker
+
+  Created by Matthias Nagel on 02.06.12.
+  Copyright (c) 2012 HdM Stuttgart. All rights reserved.
+*/
+
+"No_Internet_Connection_Text" = "No Internet connection. Please check your data connection";
+"OK" = "OK";
+"Yes" = "Yes";
+"No" = "No";
+"New" = "New";
+"Back" = "Back";
+"Hint" = "Hint";
+"Change_to_Safari" = "Do you want to open Safari?";
